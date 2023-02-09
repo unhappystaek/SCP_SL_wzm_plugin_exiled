@@ -1,0 +1,16 @@
+D:\projekty\SCP_SL_wzm_plugin_exiled\wzm_plugin\wzm_plugin\obj\Release\wzm_plugin.csproj.AssemblyReference.cache
+D:\projekty\SCP_SL_wzm_plugin_exiled\wzm_plugin\wzm_plugin\obj\Release\wzm_plugin.csproj.CoreCompileInputs.cache
+D:\projekty\SCP_SL_wzm_plugin_exiled\wzm_plugin\wzm_plugin\bin\Release\wzm_plugin.dll
+D:\projekty\SCP_SL_wzm_plugin_exiled\wzm_plugin\wzm_plugin\bin\Release\wzm_plugin.pdb
+D:\projekty\SCP_SL_wzm_plugin_exiled\wzm_plugin\wzm_plugin\bin\Release\CommandSystem.Core.dll
+D:\projekty\SCP_SL_wzm_plugin_exiled\wzm_plugin\wzm_plugin\bin\Release\Exiled.API.dll
+D:\projekty\SCP_SL_wzm_plugin_exiled\wzm_plugin\wzm_plugin\bin\Release\Exiled.CreditTags.dll
+D:\projekty\SCP_SL_wzm_plugin_exiled\wzm_plugin\wzm_plugin\bin\Release\Exiled.CustomItems.dll
+D:\projekty\SCP_SL_wzm_plugin_exiled\wzm_plugin\wzm_plugin\bin\Release\Exiled.CustomRoles.dll
+D:\projekty\SCP_SL_wzm_plugin_exiled\wzm_plugin\wzm_plugin\bin\Release\Exiled.Events.dll
+D:\projekty\SCP_SL_wzm_plugin_exiled\wzm_plugin\wzm_plugin\bin\Release\Exiled.Loader.dll
+D:\projekty\SCP_SL_wzm_plugin_exiled\wzm_plugin\wzm_plugin\bin\Release\Exiled.Permissions.dll
+D:\projekty\SCP_SL_wzm_plugin_exiled\wzm_plugin\wzm_plugin\bin\Release\Exiled.Updater.dll
+D:\projekty\SCP_SL_wzm_plugin_exiled\wzm_plugin\wzm_plugin\obj\Release\wzm_plugin.csproj.CopyComplete
+D:\projekty\SCP_SL_wzm_plugin_exiled\wzm_plugin\wzm_plugin\obj\Release\wzm_plugin.dll
+D:\projekty\SCP_SL_wzm_plugin_exiled\wzm_plugin\wzm_plugin\obj\Release\wzm_plugin.pdb
