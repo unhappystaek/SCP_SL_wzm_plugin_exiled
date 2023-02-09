@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F6BF9C8A-7D2A-45ED-85A3-486AF8DB0468}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>wzm_plugin</RootNamespace>
+    <AssemblyName>wzm_plugin</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CommandSystem.Core">
+      <HintPath>..\..\..\..\y\important\CommandSystem.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Exiled.API">
+      <HintPath>..\..\..\..\y\important\Exiled.API.dll</HintPath>
+    </Reference>
+    <Reference Include="Exiled.CreditTags">
+      <HintPath>..\..\..\..\y\important\Exiled.CreditTags.dll</HintPath>
+    </Reference>
+    <Reference Include="Exiled.CustomItems">
+      <HintPath>..\..\..\..\y\important\Exiled.CustomItems.dll</HintPath>
+    </Reference>
+    <Reference Include="Exiled.CustomRoles">
+      <HintPath>..\..\..\..\y\important\Exiled.CustomRoles.dll</HintPath>
+    </Reference>
+    <Reference Include="Exiled.Events">
+      <HintPath>..\..\..\..\y\important\Exiled.Events.dll</HintPath>
+    </Reference>
+    <Reference Include="Exiled.Loader">
+      <HintPath>..\..\..\..\y\important\Exiled.Loader.dll</HintPath>
+    </Reference>
+    <Reference Include="Exiled.Permissions">
+      <HintPath>..\..\..\..\y\important\Exiled.Permissions.dll</HintPath>
+    </Reference>
+    <Reference Include="Exiled.Updater">
+      <HintPath>..\..\..\..\y\important\Exiled.Updater.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Commands\Blackout_event.cs" />
+    <Compile Include="Config.cs" />
+    <Compile Include="Handlers\Handler.cs" />
+    <Compile Include="Handlers\Server.cs" />
+    <Compile Include="wzm_plugin.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
