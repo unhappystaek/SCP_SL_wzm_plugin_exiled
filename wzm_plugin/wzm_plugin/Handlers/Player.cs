@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace wzm_plugin.Handlers
 {
-    internal class Handler
+    internal class Player
     {
     }
 }

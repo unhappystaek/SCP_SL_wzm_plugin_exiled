@@ -73,7 +73,7 @@
   <ItemGroup>
     <Compile Include="Commands\Blackout_event.cs" />
     <Compile Include="Config.cs" />
-    <Compile Include="Handlers\Handler.cs" />
+    <Compile Include="Handlers\Player.cs" />
     <Compile Include="Handlers\Server.cs" />
     <Compile Include="wzm_plugin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

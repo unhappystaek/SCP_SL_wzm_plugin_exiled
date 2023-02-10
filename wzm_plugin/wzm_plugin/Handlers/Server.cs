@@ -3,10 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Exiled.API.Features;
+
 
 namespace wzm_plugin.Handlers
 {
-    internal class Server
+    class Server
     {
+        public void OnRoundStarted()
+        {
+            
+        }
     }
 }
