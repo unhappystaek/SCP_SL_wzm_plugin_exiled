@@ -19,7 +19,7 @@ namespace wzm_plugin
         public override PluginPriority Priority { get; } = PluginPriority.Medium;
         public override string Name => "wzm_plugin";
         public override string Author => "unhappystaek";
-        public override Version Version => new Version(1, 9, 0);
+        public override Version Version => new Version(1, 10, 0);
 
         public static wzm_plugin Singleton { get; private set; }
 
@@ -31,7 +31,7 @@ namespace wzm_plugin
         public override void OnEnabled()
         {
             Singleton = this;
-            RegisterEvents();
+            //RegisterEvents();
 
             base.OnEnabled();
         }
@@ -39,7 +39,7 @@ namespace wzm_plugin
         public override void OnDisabled()
         {
             Singleton = null;
-            UnregisterEvents();
+            //UnregisterEvents();
             base.OnDisabled();
         }
 
