@@ -14,3 +14,6 @@ D:\projekty\SCP_SL_wzm_plugin_exiled\wzm_plugin\wzm_plugin\bin\Release\Exiled.Up
 D:\projekty\SCP_SL_wzm_plugin_exiled\wzm_plugin\wzm_plugin\obj\Release\wzm_plugin.csproj.CopyComplete
 D:\projekty\SCP_SL_wzm_plugin_exiled\wzm_plugin\wzm_plugin\obj\Release\wzm_plugin.dll
 D:\projekty\SCP_SL_wzm_plugin_exiled\wzm_plugin\wzm_plugin\obj\Release\wzm_plugin.pdb
+D:\projekty\SCP_SL_wzm_plugin_exiled\wzm_plugin\wzm_plugin\bin\Release\Assembly-CSharp-firstpass.dll
+D:\projekty\SCP_SL_wzm_plugin_exiled\wzm_plugin\wzm_plugin\bin\Release\Assembly-CSharp-Publicized.dll
+D:\projekty\SCP_SL_wzm_plugin_exiled\wzm_plugin\wzm_plugin\bin\Release\System.Buffers.dll
