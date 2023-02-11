@@ -19,7 +19,7 @@ namespace wzm_plugin
         public override PluginPriority Priority { get; } = PluginPriority.Medium;
         public override string Name => "wzm_plugin";
         public override string Author => "unhappystaek";
-        public override Version Version => new Version(1, 11, 0);
+        public override Version Version => new Version(2, 1, 1);
 
         public static wzm_plugin Singleton { get; private set; }
 

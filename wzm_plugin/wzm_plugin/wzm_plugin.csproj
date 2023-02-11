@@ -78,6 +78,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Commands\Laser_tag_event.cs" />
     <Compile Include="Commands\Blackout_event.cs" />
     <Compile Include="Config.cs" />
     <Compile Include="Handlers\Player.cs" />
