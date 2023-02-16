@@ -47,7 +47,8 @@ namespace wzm_plugin.Commands
                     pl.Role.Set(RoleTypeId.Scp939);
                 }
 
-                response = "ligma";
+
+                response = "working";
                 return true;
             }
             

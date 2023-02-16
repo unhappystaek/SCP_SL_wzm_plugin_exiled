@@ -15,6 +15,7 @@ using PlayerRoles;
 using RemoteAdmin;
 using Exiled.API.Features.Roles;
 
+
 namespace wzm_plugin.Commands
 {
 
@@ -65,16 +66,16 @@ namespace wzm_plugin.Commands
                     }
 
                 foreach (Player pl in (Player.List))
-                    pl.RemoveItem;
+                    pl.ClearInventory();
 
                 foreach (Player pl in (Player.List))
                     pl.AddItem(ItemType.ParticleDisruptor);
 
-                Map.Broadcast(broadcast:("Starting Laser tag round"));
+                Map.Broadcast(message: "laser tag round has started", duration: 10);
 
                 Warhead.Detonate();
 
-                response = "ligma";
+                response = "unfinished";
                 return true;
             }
             

@@ -12,7 +12,7 @@ namespace wzm_plugin.Handlers
     {
         public void OnRoundStarted()
         {
-            
+
         }
     }
 }
