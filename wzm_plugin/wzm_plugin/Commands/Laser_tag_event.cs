@@ -44,25 +44,26 @@ namespace wzm_plugin.Commands
                 foreach (Player pl in (Player.List))
                     if (pl.IsScp)
                     {
-                        pl.Role.Set(RoleTypeId.ChaosRepressor);
+                        pl.Role.Set(RoleTypeId.NtfCaptain);
                     }
 
                 foreach (Player pl in (Player.List))
                     if (pl.Role == RoleTypeId.ClassD)
                     {
-                        pl.Role.Set(RoleTypeId.ChaosRepressor);
+                        pl.Role.Set(RoleTypeId.NtfCaptain);
                     }
 
                 foreach (Player pl in (Player.List))
                     if (pl.Role == RoleTypeId.Scientist)
                     {
-                        pl.Role.Set(RoleTypeId.NtfCaptain);
+                        pl.Role.Set(RoleTypeId.ChaosRepressor);
                     }
 
                 foreach (Player pl in (Player.List))
                     if (pl.Role == RoleTypeId.FacilityGuard)
                     {
-                        pl.Role.Set(RoleTypeId.NtfCaptain);
+                        
+                        pl.Role.Set(RoleTypeId.ChaosRepressor);
                     }
 
                 foreach (Player pl in (Player.List))
@@ -71,11 +72,12 @@ namespace wzm_plugin.Commands
                 foreach (Player pl in (Player.List))
                     pl.AddItem(ItemType.ParticleDisruptor);
 
+
                 Map.Broadcast(message: "laser tag round has started", duration: 10);
 
                 Warhead.Detonate();
 
-                response = "unfinished";
+                response = "working";
                 return true;
             }
             
