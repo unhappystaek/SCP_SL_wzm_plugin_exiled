@@ -48,6 +48,7 @@ namespace wzm_plugin.Commands
                         pl.TryAddCandy(candyType: InventorySystem.Items.Usables.Scp330.CandyKindID.Pink);
                         pl.AddItem(ItemType.SCP018);
                         pl.AddItem(ItemType.SCP268);
+                        pl.IsGodModeEnabled = true;
                     }
 
                     
