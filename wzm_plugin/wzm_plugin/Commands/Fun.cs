@@ -13,7 +13,6 @@ using Exiled.API.Features.Items;
 using System.Text.RegularExpressions;
 using PlayerRoles;
 using RemoteAdmin;
-using Exiled.API.Features.Roles;
 
 
 namespace wzm_plugin.Commands
@@ -38,20 +37,17 @@ namespace wzm_plugin.Commands
             }
             else
             {
-                foreach (Player pl in (Player.List))
-                    if (pl == sender)
-                    {
-                        pl.Role.Set(RoleTypeId.Tutorial);
-                        pl.IsNoclipPermitted = true;
-                        pl.AddItem(ItemType.ParticleDisruptor);
-                        pl.AddItem(ItemType.MicroHID);
-                        pl.TryAddCandy(candyType: InventorySystem.Items.Usables.Scp330.CandyKindID.Pink);
-                        pl.AddItem(ItemType.SCP018);
-                        pl.AddItem(ItemType.SCP268);
-                        pl.IsGodModeEnabled = true;
-                    }
+                Player player = Player.Get(sender);
 
-                    
+                player.Role.Set(RoleTypeId.Tutorial);
+                player.IsNoclipPermitted = true;
+                player.AddItem(ItemType.ParticleDisruptor);
+                player.AddItem(ItemType.MicroHID);
+                player.TryAddCandy(candyType: InventorySystem.Items.Usables.Scp330.CandyKindID.Pink);
+                player.AddItem(ItemType.SCP018);
+                player.AddItem(ItemType.SCP268);
+                player.IsGodModeEnabled = true;   
+
                 response = "working";
                 return true;
             }

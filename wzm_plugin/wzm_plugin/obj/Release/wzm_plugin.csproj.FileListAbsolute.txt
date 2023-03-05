@@ -17,3 +17,7 @@ D:\projekty\SCP_SL_wzm_plugin_exiled\wzm_plugin\wzm_plugin\obj\Release\wzm_plugi
 D:\projekty\SCP_SL_wzm_plugin_exiled\wzm_plugin\wzm_plugin\bin\Release\Assembly-CSharp-firstpass.dll
 D:\projekty\SCP_SL_wzm_plugin_exiled\wzm_plugin\wzm_plugin\bin\Release\Assembly-CSharp-Publicized.dll
 D:\projekty\SCP_SL_wzm_plugin_exiled\wzm_plugin\wzm_plugin\bin\Release\System.Buffers.dll
+D:\projekty\SCP_SL_wzm_plugin_exiled\wzm_plugin\wzm_plugin\bin\Release\Mirror.dll
+D:\projekty\SCP_SL_wzm_plugin_exiled\wzm_plugin\wzm_plugin\bin\Release\PluginAPI.dll
+D:\projekty\SCP_SL_wzm_plugin_exiled\wzm_plugin\wzm_plugin\bin\Release\UnityEngine.CoreModule.dll
+D:\projekty\SCP_SL_wzm_plugin_exiled\wzm_plugin\wzm_plugin\bin\Release\UnityEngine.PhysicsModule.dll
