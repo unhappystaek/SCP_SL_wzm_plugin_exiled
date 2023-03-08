@@ -38,7 +38,7 @@ namespace wzm_plugin.Commands
             else
             {
                 Player player = Player.Get(sender);
-
+                player.Broadcast(message: "have fun", duration: 10);
                 player.Role.Set(RoleTypeId.Tutorial);
                 player.IsNoclipPermitted = true;
                 player.AddItem(ItemType.ParticleDisruptor);

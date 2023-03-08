@@ -90,6 +90,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Commands\Dowod.cs" />
     <Compile Include="Commands\Fun.cs" />
     <Compile Include="Commands\Laser_tag_event.cs" />
     <Compile Include="Commands\Blackout_event.cs" />
