@@ -24,9 +24,9 @@ namespace wzm_plugin.Commands
         bool x =  true;
         public string Command { get; } = "Fun";
 
-        public string[] Aliases { get; } = {"Fun for admins"};
+        public string[] Aliases { get; } = {"Fun_for_admins"};
 
-        public string Description { get; } = "Gives you a funny stuff";
+        public string Description { get; } = "have fun!";
 
         public bool Execute(ArraySegment<string> arguments, ICommandSender sender, out string response)
         {

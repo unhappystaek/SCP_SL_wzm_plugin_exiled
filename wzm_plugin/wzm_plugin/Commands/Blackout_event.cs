@@ -21,7 +21,7 @@ namespace wzm_plugin.Commands
     public class Blackout_event : ICommand
     {
         bool x =  true;
-        public string Command { get; } = "Blackut_event";
+        public string Command { get; } = "Blackout_event";
 
         public string[] Aliases { get; } = {"event_bl"};
 
